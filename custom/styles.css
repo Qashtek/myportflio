@@ -1,0 +1,104 @@
+.navbar{
+    background-color: #6d2aff;
+/*    visibility: hidden;*/
+}
+
+.upperLand{
+    height: 90vh;
+    width: 100%;
+    padding: 150px;
+}
+
+/* #bg-upper{
+    background-size: cover;
+} */
+
+
+@media (max-width: 780px){
+    .upperLand{
+        padding: 150px 50px;
+    }
+
+}
+
+@media (max-width: 575px){
+    .navbar-nav{
+        border-top: 1px solid #ccc;
+    }
+}
+
+body{
+    padding-top: 80px;
+}
+
+.service-row{
+    background-color: #3d01c1;
+    border-radius: 0 70px 0 70px;
+}
+
+.serv-H{
+    background-color:#452d78
+}
+
+.serv-body{
+    /* height: 250px; */
+    padding-bottom: 20px;
+    font-size: 0.96em;
+}
+
+p.desc{
+    font-size: 0.9em;
+    color:#d1cccc;
+}
+
+dd.desc{
+    font-size: 0.96em;
+}
+
+.review-rowfluid{
+    background: #452d78;
+}
+
+.cli-quote{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.btn-sub{
+    background:#452d78;
+    color: #ccc;
+    font-variant: small-caps;
+}
+
+.btn-sub:hover{
+    background: #3d01c1;
+    color: #fff;
+}
+
+.footer{
+    background-color: #6e52ac;
+    padding: 40px 0;
+    font-size: 0.9em;
+    color: #ddd;
+}
+
+.footer h3{
+    font-size: 1em;
+    color: #111;;
+}
+
+.footer a{
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: #111;
+    font-weight: 500;
+}
+
+.about-head{
+    font-size: 1.5em;
+    font-weight: 500;
+}
